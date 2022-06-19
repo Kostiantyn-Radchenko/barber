@@ -1,3 +1,7 @@
 @import "./utils/modern-normalize";
 @import "./utils/common";
 @import "./utils/variables";
+@import './components/header/header';
+@import './components/header/headerLogo';
+@import './components/header/headerNav';
+@import './components/header/headerNotification';

@@ -1,6 +1,6 @@
-// map colors
+// color map
 $colors:(
-    '   ':#153461,
+    'active ':#153461,
     'primaryTitle':#163561,
     'navMenu':#a3c1ef,
     'button':#99baed,
@@ -8,12 +8,8 @@ $colors:(
     'effect':rgba(182, 219, 252, 1),
     'serviceIcon':#008FDD,
     'white':#ffffff,
-    'cardBorder':rgba(82,150,255,0.35)
+    'cardShadow':0px 5px 0px #99BAED,
 
 );
-
-// body{
-//     background-color: map-get($colors, 'cardBorder' );
-// }
 
 

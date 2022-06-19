@@ -293,4 +293,12 @@ svg {
   max-width: 100%;
   height: auto;
 }
+
+.nav__logo {
+  color: #99baed;
+}
+
+.nav__link {
+  color: #163561;
+}
 /*# sourceMappingURL=main.css.map */
