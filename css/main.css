@@ -269,6 +269,21 @@ summary {
   display: list-item;
 }
 
+.nav__logo, .footer__logo {
+  color: #99baed;
+}
+
+.authentification__buttom, .hero__buttom, .our-history__button, .gallery__button {
+  color: #ffffff;
+  background-color: #008FDD;
+  border-color: transparent;
+  border-radius: 20px;
+}
+
+.hero__title, .our-history__title, .services__title, .gallery__title {
+  color: #163561;
+}
+
 li {
   list-style-type: none;
 }
@@ -294,11 +309,27 @@ svg {
   height: auto;
 }
 
-.nav__logo {
-  color: #99baed;
+body {
+  color: #153461;
 }
 
 .nav__link {
   color: #163561;
+}
+
+.hero__title--secondary {
+  color: #fbb400;
+}
+
+.our-history__title--secondary {
+  color: #fbb400;
+}
+
+.services__title--secondary {
+  color: #fbb400;
+}
+
+.gallery__title--secondary {
+  color: #fbb400;
 }
 /*# sourceMappingURL=main.css.map */

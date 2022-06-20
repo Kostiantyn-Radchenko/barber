@@ -1,7 +1,13 @@
 @import "./utils/modern-normalize";
-@import "./utils/common";
 @import "./utils/variables";
+@import './utils/placeholder';
+@import "./utils/common";
 @import './components/header/header';
 @import './components/header/headerLogo';
 @import './components/header/headerNav';
-@import './components/header/headerNotification';
+@import './components/header/headerAuthentification';
+@import './components/main/hero';
+@import './components/main/ourHistory';
+@import './components/main/service';
+@import './components/main/gallery';
+@import './components/footer/social';

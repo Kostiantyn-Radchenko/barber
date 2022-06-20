@@ -22,3 +22,9 @@ svg {
     max-width: 100%;
     height: auto;
 }
+
+
+body{
+    color: map-get($colors,
+        'active' );
+}

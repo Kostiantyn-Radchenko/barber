@@ -2,5 +2,6 @@
 
 
 .nav__logo{
-    color:map-get($colors, 'button') ;
+    @extend %logo;
+   
 }
