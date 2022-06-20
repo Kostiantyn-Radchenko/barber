@@ -1,18 +1,21 @@
+// logo
 %logo{
     color: map-get($colors, 'button')
 }
 
-
+// button
 %button{
     color: map-get($colors, 'white');
     background-color:map-get($colors, 'serviceIcon') ;
 
+    
+    
     border-color: transparent;
     border-radius: $borderRadius;
     
 }
 
-
+// title
 %title{
     color: map-get($colors,
         'titlePrimary' );              
