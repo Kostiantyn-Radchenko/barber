@@ -338,12 +338,15 @@ body {
   background-color: #fafbff;
 }
 
-.services__item:hover {
+.services__item:hover,
+.services__item:focus {
   background-color: #99baed;
 }
 
 .services__item:hover .services__subtitle,
-.services__item:hover .services__text {
+.services__item:hover .services__text,
+.services__item:focus .services__subtitle,
+.services__item:focus .services__text {
   color: #ffffff;
 }
 

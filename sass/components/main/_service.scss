@@ -9,7 +9,8 @@
     background-color: map-get($colors, 'cardBkg');
 }
 
-.services__item:hover{
+.services__item:hover,
+.services__item:focus{
     background-color: map-get($colors, 'button');
 
     .services__subtitle,
@@ -20,10 +21,12 @@
 
 .services__subtitle{
     color: map-get($colors, 'titlePrimary');
+
 }
 
 .services__text{
     color: map-get($colors, 'active');
+    
 }
 
 
