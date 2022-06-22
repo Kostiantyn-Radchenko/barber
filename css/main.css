@@ -317,6 +317,7 @@ svg {
 
 body {
   color: #153461;
+  background-color: #ffffff;
   font-family: Catamaran, sans-serif;
 }
 
@@ -364,6 +365,10 @@ body {
   line-height: 1.5;
 }
 
+.services__title {
+  text-align: center;
+}
+
 .services__title--secondary {
   color: #fbb400;
 }
@@ -380,6 +385,10 @@ body {
   font-weight: 400;
   font-size: 25px;
   line-height: 1.5;
+}
+
+.gallery__title {
+  text-align: center;
 }
 
 .gallery__title--secondary {

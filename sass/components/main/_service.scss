@@ -3,6 +3,8 @@
   &--secondary {
     color: map-get($colors, 'titleSecondary');
   }
+
+  text-align: center;
 }
 
 .services__subtitle {

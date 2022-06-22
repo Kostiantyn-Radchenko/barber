@@ -25,5 +25,7 @@ svg {
 
 body {
   color: map-get($colors, 'active');
+  background-color: map-get($colors, 'white');
+
   font-family: Catamaran, sans-serif;
 }
