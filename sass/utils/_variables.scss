@@ -1,19 +1,17 @@
 // color map
-$colors:(
-    'active':#153461,
-    'titlePrimary':#163561,
-    'titleSecondary':#fbb400,
-    'hover':#a3c1ef,
-    'button':#99baed,     
-    'vector':rgba(182, 219, 252, 1),
-    'serviceIcon':#008FDD,
-    'white':#ffffff,
-    'cardShadow':0px 5px 0px #99BAED,
-    'cardBkg':#fafbff,
-    'cardIconBkg':#e5ecfe,
-
+$colors: (
+  'active': #153461,
+  'titlePrimary': #163561,
+  'titleSecondary': #fbb400,
+  'hover': #a3c1ef,
+  'button': #99baed,
+  'vector': rgba(182, 219, 252, 1),
+  'serviceIcon': #008fdd,
+  'white': #ffffff,
+  'cardShadow': 0px 5px 0px #99baed,
+  'cardBkg': #fafbff,
+  'cardIconBkg': #e5ecfe,
 );
 
-
 // button
-$borderRadius:20px;
+$borderRadius: 20px;

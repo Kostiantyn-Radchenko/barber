@@ -1,13 +1,13 @@
-.our-history__title{
-    @extend %title;
-    &--secondary {
-            color: map-get($colors,
-                    'titleSecondary');
-        }
-
+.our-history__title {
+  @extend %title;
+  &--secondary {
+    color: map-get($colors, 'titleSecondary');
+  }
 }
 
-
-.our-history__button{
-    @extend %button;
+.our-history__text {
+  @include fonts(400, 25, 1.5);
+}
+.our-history__button {
+  @extend %button;
 }

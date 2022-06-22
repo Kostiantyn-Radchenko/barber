@@ -1,32 +1,18 @@
-.services__title{
-    @extend %title;
-    &--secondary {
-            color: map-get($colors,'titleSecondary');
-        }
+.services__title {
+  @extend %title;
+  &--secondary {
+    color: map-get($colors, 'titleSecondary');
+  }
 }
 
-.services__item{
-    background-color: map-get($colors, 'cardBkg');
+.services__subtitle {
+  color: map-get($colors, 'titlePrimary');
+
+  @include fonts(700, 45, 1.15);
 }
 
-.services__item:hover,
-.services__item:focus{
-    background-color: map-get($colors, 'button');
+.services__text {
+  color: map-get($colors, 'active');
 
-    .services__subtitle,
-    .services__text {
-            color: map-get($colors, 'white');
-        }
+  @include fonts(400, 25, 1.5);
 }
-
-.services__subtitle{
-    color: map-get($colors, 'titlePrimary');
-
-}
-
-.services__text{
-    color: map-get($colors, 'active');
-    
-}
-
-

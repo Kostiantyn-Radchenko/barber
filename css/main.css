@@ -275,13 +275,19 @@ summary {
 
 .authentification__buttom, .hero__buttom, .our-history__button, .gallery__button {
   color: #ffffff;
-  background-color: #008FDD;
+  background-color: #008fdd;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
   border-color: transparent;
   border-radius: 20px;
 }
 
 .hero__title, .our-history__title, .services__title, .gallery__title {
   color: #163561;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.5;
 }
 
 li {
@@ -311,10 +317,20 @@ svg {
 
 body {
   color: #153461;
+  font-family: Catamaran, sans-serif;
+}
+
+.nav__logo {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.32;
 }
 
 .nav__link {
   color: #163561;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.32;
 }
 
 .nav__link:hover, .nav__link:focus {
@@ -322,43 +338,63 @@ body {
   background-color: #a3c1ef;
 }
 
+.hero__title {
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 1.33;
+}
+
 .hero__title--secondary {
   color: #fbb400;
+}
+
+.hero__text {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.52;
 }
 
 .our-history__title--secondary {
   color: #fbb400;
 }
 
+.our-history__text {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
 .services__title--secondary {
   color: #fbb400;
 }
 
-.services__item {
-  background-color: #fafbff;
-}
-
-.services__item:hover,
-.services__item:focus {
-  background-color: #99baed;
-}
-
-.services__item:hover .services__subtitle,
-.services__item:hover .services__text,
-.services__item:focus .services__subtitle,
-.services__item:focus .services__text {
-  color: #ffffff;
-}
-
 .services__subtitle {
   color: #163561;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.15;
 }
 
 .services__text {
   color: #153461;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
 }
 
 .gallery__title--secondary {
   color: #fbb400;
+}
+
+.footer__logo {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 1.33;
+}
+
+.footer__text {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,12 +1,10 @@
-.gallery__title{
-    @extend %title;
-&--secondary {
-        color: map-get($colors,
-                'titleSecondary');
-    }
-
+.gallery__title {
+  @extend %title;
+  &--secondary {
+    color: map-get($colors, 'titleSecondary');
+  }
 }
 
-.gallery__button{
-    @extend %button;
+.gallery__button {
+  @extend %button;
 }

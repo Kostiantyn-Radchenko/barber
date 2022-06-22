@@ -1,7 +1,5 @@
+.nav__logo {
+  @extend %logo;
 
-
-
-.nav__logo{
-    @extend %logo;
-   
+  @include fonts(600, 40, 1.32);
 }

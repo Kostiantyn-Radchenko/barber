@@ -1,3 +1,9 @@
-.footer__logo{
-    @extend %logo;
+.footer__logo {
+  @extend %logo;
+
+  @include fonts(600, 60, 1.33);
+}
+
+.footer__text {
+  @include fonts(400, 25, 1.5);
 }

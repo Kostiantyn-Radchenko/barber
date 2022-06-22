@@ -1,12 +1,15 @@
-.hero__title{
-    @extend %title;
-    
-    &--secondary {
-            color: map-get($colors,
-                    'titleSecondary');
-        }
+.hero__title {
+  @extend %title;
+
+  &--secondary {
+    color: map-get($colors, 'titleSecondary');
+  }
+  @include fonts(700, 75, 1.33);
 }
 
-.hero__buttom{
-        @extend %button;
+.hero__text {
+  @include fonts(400, 25, 1.52);
+}
+.hero__buttom {
+  @extend %button;
 }

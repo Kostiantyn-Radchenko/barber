@@ -1,10 +1,11 @@
-.nav__link{
-    color: map-get($colors, 'titlePrimary');
+.nav__link {
+  color: map-get($colors, 'titlePrimary');
 
-
-    &:hover,
-    &:focus{
+  &:hover,
+  &:focus {
     color: map-get($colors, 'white');
-    background-color:map-get($colors, 'hover') ;
-    }
+    background-color: map-get($colors, 'hover');
+  }
+
+  @include fonts(500, 25, 1.32);
 }
