@@ -1,0 +1,6 @@
+.container {
+  width: 1950px;
+  @include pushAuto;
+  padding-left: 15px;
+  padding-right: 15px;
+}

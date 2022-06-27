@@ -1,11 +1,20 @@
+.gallery {
+  margin-bottom: 171px;
+}
+
 .gallery__title {
   @extend %title;
   &--secondary {
     color: map-get($colors, 'titleSecondary');
   }
+
+  margin-bottom: 110px;
   text-align: center;
 }
 
+.gallery__list {
+  margin-bottom: 77px;
+}
 .gallery__button {
   @extend %button;
 }

@@ -1,9 +1,13 @@
+.services {
+  margin-bottom: 272px;
+}
+
 .services__title {
   @extend %title;
   &--secondary {
     color: map-get($colors, 'titleSecondary');
   }
-
+  margin-bottom: 83px;
   text-align: center;
 }
 

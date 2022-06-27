@@ -3,3 +3,10 @@
   font-size: $fontSize * 1px;
   line-height: $lineHeight;
 }
+
+@mixin pushAuto {
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}

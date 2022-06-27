@@ -1,3 +1,8 @@
+// outline
+%out {
+  outline: 1px solid blue;
+}
+
 // logo
 %logo {
   color: map-get($colors, 'button');
@@ -9,9 +14,18 @@
   background-color: map-get($colors, 'serviceIcon');
 
   @include fonts(700, 20, 1.5);
+  min-width: 188px;
+  padding: 23px 33px;
+  text-align: center;
 
   border-color: transparent;
   border-radius: $borderRadius;
+
+  &:hover,
+  &:focus {
+    color: map-get($colors, 'serviceIcon');
+    background-color: map-get($colors, 'white');
+  }
 }
 
 // title

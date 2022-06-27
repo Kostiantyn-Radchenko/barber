@@ -279,8 +279,16 @@ summary {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.5;
+  min-width: 188px;
+  padding: 23px 33px;
+  text-align: center;
   border-color: transparent;
   border-radius: 20px;
+}
+
+.authentification__buttom:hover, .hero__buttom:hover, .our-history__button:hover, .gallery__button:hover, .authentification__buttom:focus, .hero__buttom:focus, .our-history__button:focus, .gallery__button:focus {
+  color: #008fdd;
+  background-color: #ffffff;
 }
 
 .hero__title, .our-history__title, .services__title, .gallery__title {
@@ -321,6 +329,18 @@ body {
   font-family: Catamaran, sans-serif;
 }
 
+.container {
+  width: 1950px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-conteiner {
+  margin-bottom: 49px;
+}
+
 .nav__logo {
   font-weight: 600;
   font-size: 40px;
@@ -339,10 +359,15 @@ body {
   background-color: #a3c1ef;
 }
 
+.hero {
+  margin-bottom: 226px;
+}
+
 .hero__title {
   font-weight: 700;
   font-size: 75px;
   line-height: 1.33;
+  margin-bottom: 29px;
 }
 
 .hero__title--secondary {
@@ -353,6 +378,15 @@ body {
   font-weight: 400;
   font-size: 25px;
   line-height: 1.52;
+  margin-bottom: 97px;
+}
+
+.our-history {
+  margin-bottom: 136px;
+}
+
+.our-history__title {
+  margin-bottom: 80px;
 }
 
 .our-history__title--secondary {
@@ -363,9 +397,19 @@ body {
   font-weight: 400;
   font-size: 25px;
   line-height: 1.5;
+  margin-bottom: 48px;
+}
+
+.our-history__text:last-child {
+  margin-bottom: 108px;
+}
+
+.services {
+  margin-bottom: 272px;
 }
 
 .services__title {
+  margin-bottom: 83px;
   text-align: center;
 }
 
@@ -387,7 +431,12 @@ body {
   line-height: 1.5;
 }
 
+.gallery {
+  margin-bottom: 171px;
+}
+
 .gallery__title {
+  margin-bottom: 110px;
   text-align: center;
 }
 
@@ -395,15 +444,22 @@ body {
   color: #fbb400;
 }
 
+.gallery__list {
+  margin-bottom: 77px;
+}
+
 .footer__logo {
   font-weight: 600;
   font-size: 60px;
   line-height: 1.33;
+  display: inline-block;
+  margin-bottom: 37px;
 }
 
 .footer__text {
   font-weight: 400;
   font-size: 25px;
   line-height: 1.5;
+  margin-bottom: 47px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,12 +1,21 @@
+.our-history {
+  margin-bottom: 136px;
+}
+
 .our-history__title {
   @extend %title;
   &--secondary {
     color: map-get($colors, 'titleSecondary');
   }
+  margin-bottom: 80px;
 }
 
 .our-history__text {
   @include fonts(400, 25, 1.5);
+  margin-bottom: 48px;
+  &:last-child {
+    margin-bottom: 108px;
+  }
 }
 .our-history__button {
   @extend %button;
