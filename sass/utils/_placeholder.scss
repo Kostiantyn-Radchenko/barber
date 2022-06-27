@@ -25,6 +25,7 @@
   &:focus {
     color: map-get($colors, 'serviceIcon');
     background-color: map-get($colors, 'white');
+    border: 1px solid map-get($colors, 'serviceIcon');
   }
 }
 

@@ -289,6 +289,7 @@ summary {
 .authentification__buttom:hover, .hero__buttom:hover, .our-history__button:hover, .gallery__button:hover, .authentification__buttom:focus, .hero__buttom:focus, .our-history__button:focus, .gallery__button:focus {
   color: #008fdd;
   background-color: #ffffff;
+  border: 1px solid #008fdd;
 }
 
 .hero__title, .our-history__title, .services__title, .gallery__title {
@@ -357,6 +358,11 @@ body {
 .nav__link:hover, .nav__link:focus {
   color: #ffffff;
   background-color: #a3c1ef;
+}
+
+.btn {
+  width: 42px;
+  height: 42px;
 }
 
 .hero {
@@ -449,17 +455,17 @@ body {
 }
 
 .footer__logo {
+  display: inline-block;
+  margin-bottom: 37px;
   font-weight: 600;
   font-size: 60px;
   line-height: 1.33;
-  display: inline-block;
-  margin-bottom: 37px;
 }
 
 .footer__text {
+  margin-bottom: 47px;
   font-weight: 400;
   font-size: 25px;
   line-height: 1.5;
-  margin-bottom: 47px;
 }
 /*# sourceMappingURL=main.css.map */

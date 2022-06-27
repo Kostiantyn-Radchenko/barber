@@ -2,14 +2,13 @@
 }
 
 .footer__logo {
-  @extend %logo;
-
-  @include fonts(600, 60, 1.33);
   display: inline-block;
   margin-bottom: 37px;
+  @include fonts(600, 60, 1.33);
+  @extend %logo;
 }
 
 .footer__text {
-  @include fonts(400, 25, 1.5);
   margin-bottom: 47px;
+  @include fonts(400, 25, 1.5);
 }
