@@ -11,4 +11,5 @@
 .footer__text {
   margin-bottom: 47px;
   @include fonts(400, 25, 1.5);
+  opacity: 0.65;
 }

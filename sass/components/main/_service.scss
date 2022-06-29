@@ -19,6 +19,7 @@
 
 .services__text {
   color: map-get($colors, 'active');
+  opacity: 0.65;
 
   @include fonts(400, 25, 1.5);
 }

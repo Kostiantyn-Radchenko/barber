@@ -426,11 +426,11 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   margin-bottom: 226px;
-  outline: 1px solid red;
 }
 
 .hero__list {
   margin-top: 102px;
+  margin-left: 188px;
 }
 
 .hero__title {
@@ -448,6 +448,7 @@ body {
   font-weight: 400;
   font-size: 25px;
   line-height: 1.52;
+  opacity: 0.65;
   margin-bottom: 97px;
 }
 
@@ -467,6 +468,7 @@ body {
   font-weight: 400;
   font-size: 25px;
   line-height: 1.5;
+  opacity: 0.65;
   margin-bottom: 48px;
 }
 
@@ -496,6 +498,7 @@ body {
 
 .services__text {
   color: #153461;
+  opacity: 0.65;
   font-weight: 400;
   font-size: 25px;
   line-height: 1.5;
@@ -531,5 +534,6 @@ body {
   font-weight: 400;
   font-size: 25px;
   line-height: 1.5;
+  opacity: 0.65;
 }
 /*# sourceMappingURL=main.css.map */

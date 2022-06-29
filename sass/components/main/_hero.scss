@@ -3,11 +3,11 @@
   flex-direction: row;
 
   margin-bottom: 226px;
-  outline: 1px solid red;
 }
 
 .hero__list {
   margin-top: 102px;
+  margin-left: 188px;
 }
 
 .hero__title {
@@ -22,6 +22,7 @@
 
 .hero__text {
   @include fonts(400, 25, 1.52);
+  opacity: 0.65;
   margin-bottom: 97px;
 }
 .hero__buttom {
