@@ -1,4 +1,25 @@
+.nav {
+  display: flex;
+  align-items: center;
+  margin-left: 170px;
+}
+
+.nav__list {
+  display: flex;
+  margin-left: 110px;
+}
+
+.nav__item {
+  &:not(:last-child) {
+    margin-right: 48px;
+  }
+}
 .nav__link {
+  padding-top: 67px;
+  padding-bottom: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+
   color: map-get($colors, 'titlePrimary');
 
   &:hover,
