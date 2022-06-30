@@ -345,6 +345,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 46px;
   margin-bottom: 49px;
 }
 
@@ -425,12 +426,15 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 226px;
 }
 
 .hero__list {
-  margin-top: 102px;
   margin-left: 188px;
+  margin-right: 24px;
 }
 
 .hero__title {
@@ -457,10 +461,20 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 136px;
+}
+
+.our-history__item {
+  width: 526px;
 }
 
 .our-history__title {
@@ -481,6 +495,10 @@ body {
 
 .our-history__text:last-child {
   margin-bottom: 108px;
+}
+
+.our-history__img {
+  margin-left: 82px;
 }
 
 .services {

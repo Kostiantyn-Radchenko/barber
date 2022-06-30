@@ -1,10 +1,14 @@
 .our-history {
   display: flex;
-  flex-direction: row;
-
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
   margin-bottom: 136px;
 }
 
+.our-history__item {
+  width: 526px;
+}
 .our-history__title {
   @extend %title;
   &--secondary {
@@ -23,4 +27,8 @@
 }
 .our-history__button {
   @extend %button;
+}
+
+.our-history__img {
+  margin-left: 82px;
 }
