@@ -2,6 +2,23 @@
   margin-bottom: 171px;
 }
 
+.gallery__list {
+  // display: flex;
+  // flex-wrap: wrap;
+  // align-items: center;
+  // margin-top: -37px;
+  // margin-right: -37px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 37px;
+}
+
+.gallery__item {
+  // flex-basis: calc((100% - 37px) / 3);
+  // margin-top: 37px;
+  // margin-right: 37px;
+}
+
 .gallery__title {
   @extend %title;
   &--secondary {

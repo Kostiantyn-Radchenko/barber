@@ -4,17 +4,15 @@
 
 .services__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-}
-
-.services__item {
-  &:not(:last-child) {
-    margin-right: 49px;
-  }
+  margin-left: -49px;
 }
 
 .services__link {
   display: block;
+  flex-basis: calc(100% / 3 - 49px);
+  margin-left: 49px;
   text-align: center;
 
   padding-top: 50px;
@@ -24,10 +22,10 @@
 
   width: 441px;
   height: 533px;
-  border-radius: 29px;
+
   background-color: map-get($colors, 'cardBkg');
   box-shadow: map-get($colors, 'cardShadow');
-
+  border-radius: 29px;
   &:hover,
   &:focus {
     background-color: map-get($colors, 'button');
