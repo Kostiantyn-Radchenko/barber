@@ -3,22 +3,19 @@
 }
 
 .gallery__list {
-  // display: flex;
-  // flex-wrap: wrap;
-
-  // margin-top: -37px;
-  // margin-left: -37px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -37px;
+  margin-left: -37px;
 
   padding-bottom: 77px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 37px;
 }
 
 .gallery__item {
-  // flex-basis: calc(100% / 3 - 37px);
-  // margin-top: 37px;
-  // margin-left: 37px;
+  flex-basis: calc(100% / 3 - 111px);
+  margin-top: 37px;
+  margin-left: 37px;
 }
 
 .gallery__title {
