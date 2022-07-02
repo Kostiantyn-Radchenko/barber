@@ -1,5 +1,5 @@
 .gallery {
-  margin-bottom: 171px;
+  padding-bottom: 171px;
 }
 
 .gallery__list {
@@ -9,11 +9,10 @@
   margin-top: -37px;
   margin-left: -37px;
 
-  padding-bottom: 77px;
+  margin-bottom: 77px;
 }
 
 .gallery__item {
-  flex-basis: calc(100% / 3 - 111px);
   margin-top: 37px;
   margin-left: 37px;
 }

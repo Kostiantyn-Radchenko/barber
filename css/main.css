@@ -336,6 +336,7 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  outline: 1px solid black;
 }
 
 .header-conteiner {
@@ -345,8 +346,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 46px;
-  margin-bottom: 49px;
+  padding-top: 39px;
 }
 
 .nav__logo {
@@ -428,7 +428,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 226px;
+  padding-bottom: 226px;
 }
 
 .hero__item {
@@ -468,7 +468,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 136px;
+  padding-bottom: 136px;
 }
 
 .our-history__list {
@@ -500,7 +500,7 @@ body {
 }
 
 .services {
-  margin-bottom: 272px;
+  padding-bottom: 272px;
 }
 
 .services__list {
@@ -573,7 +573,7 @@ body {
 }
 
 .gallery {
-  margin-bottom: 171px;
+  padding-bottom: 171px;
 }
 
 .gallery__list {
@@ -587,12 +587,10 @@ body {
           justify-content: center;
   margin-top: -37px;
   margin-left: -37px;
-  padding-bottom: 77px;
+  margin-bottom: 77px;
 }
 
 .gallery__item {
-  -ms-flex-preferred-size: calc(100% / 3 - 111px);
-      flex-basis: calc(100% / 3 - 111px);
   margin-top: 37px;
   margin-left: 37px;
 }
