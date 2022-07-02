@@ -275,7 +275,7 @@ summary {
 
 .authentification__buttom, .hero__buttom, .our-history__button, .gallery__button {
   color: #ffffff;
-  background-color: #008fdd;
+  background-color: #99baed;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.5;
@@ -287,9 +287,9 @@ summary {
 }
 
 .authentification__buttom:hover, .hero__buttom:hover, .our-history__button:hover, .gallery__button:hover, .authentification__buttom:focus, .hero__buttom:focus, .our-history__button:focus, .gallery__button:focus {
-  color: #008fdd;
+  color: #99baed;
   background-color: #ffffff;
-  border: 1px solid #008fdd;
+  border: 1px solid #99baed;
 }
 
 .hero__title, .our-history__title, .services__title, .gallery__title {
@@ -331,7 +331,7 @@ body {
 }
 
 .container {
-  width: 1950px;
+  width: 1560px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -368,7 +368,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 170px;
 }
 
 .nav__list {
@@ -379,7 +378,7 @@ body {
 }
 
 .nav__item:not(:last-child) {
-  margin-right: 48px;
+  margin-right: 20px;
 }
 
 .nav__link {
@@ -432,9 +431,8 @@ body {
   margin-bottom: 226px;
 }
 
-.hero__list {
-  margin-left: 188px;
-  margin-right: 24px;
+.hero__item {
+  width: 576px;
 }
 
 .hero__title {
@@ -473,6 +471,10 @@ body {
   margin-bottom: 136px;
 }
 
+.our-history__list {
+  margin-left: 149px;
+}
+
 .our-history__item {
   width: 526px;
 }
@@ -495,10 +497,6 @@ body {
 
 .our-history__text:last-child {
   margin-bottom: 108px;
-}
-
-.our-history__img {
-  margin-left: 82px;
 }
 
 .services {
@@ -579,6 +577,7 @@ body {
 }
 
 .gallery__list {
+  padding-bottom: 77px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
@@ -595,8 +594,10 @@ body {
   color: #fbb400;
 }
 
-.gallery__list {
-  margin-bottom: 77px;
+.gallery__button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer__logo {

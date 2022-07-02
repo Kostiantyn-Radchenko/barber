@@ -4,12 +4,9 @@
   align-items: center;
   margin-bottom: 226px;
 }
-
-.hero__list {
-  margin-left: 188px;
-  margin-right: 24px;
+.hero__item {
+  width: 576px;
 }
-
 .hero__title {
   @extend %title;
 

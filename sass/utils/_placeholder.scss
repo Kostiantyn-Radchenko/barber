@@ -11,7 +11,7 @@
 // button
 %button {
   color: map-get($colors, 'white');
-  background-color: map-get($colors, 'serviceIcon');
+  background-color: map-get($colors, 'button');
 
   @include fonts(700, 20, 1.5);
   min-width: 188px;
@@ -23,9 +23,9 @@
 
   &:hover,
   &:focus {
-    color: map-get($colors, 'serviceIcon');
+    color: map-get($colors, 'button');
     background-color: map-get($colors, 'white');
-    border: 1px solid map-get($colors, 'serviceIcon');
+    border: 1px solid map-get($colors, 'button');
   }
 }
 
