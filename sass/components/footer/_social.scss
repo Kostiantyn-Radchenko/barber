@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 35px;
 }
 
 .footer__logo {
@@ -21,4 +22,10 @@
 
 .social__list {
   display: flex;
+  margin-bottom: 47px;
+}
+
+.footer__border {
+  width: 1362px;
+  border: 1px solid map-get($colors, 'button');
 }
