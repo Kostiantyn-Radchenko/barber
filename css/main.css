@@ -614,18 +614,6 @@ body {
   margin-right: auto;
 }
 
-.gallery__image {
-  -webkit-transition: 500ms;
-  transition: 500ms;
-}
-
-.gallery__image:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  -webkit-transition: 500ms;
-  transition: 500ms;
-}
-
 .footer-container {
   display: -webkit-box;
   display: -ms-flexbox;
