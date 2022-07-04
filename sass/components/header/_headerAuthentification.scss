@@ -16,4 +16,13 @@
 .btn {
   width: 42px;
   height: 42px;
+  border: none;
+
+  background-color: map-get($colors, 'white');
+
+  &:hover,
+  &:focus {
+    border-radius: 50%;
+    background-color: rgba(0, 0, 255, 0.1);
+  }
 }

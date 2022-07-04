@@ -22,7 +22,9 @@
       <div class="container header-conteiner">
         <nav class="nav">
           <a href="./" class="nav__logo">
-            <!-- <img src="./image/logo.svg" alt="scissors" />-->
+            <svg class="logo__icon" width="74" height="74">
+              <use href="./image/sprite.svg#scissors"></use>
+            </svg>
             arber</a
           >
           <ul class="nav__list">
@@ -36,10 +38,18 @@
         <!-- registration section -->
         <ul class="authentification">
           <li class="authentification__item">
-            <button type="button" class="profile btn"></button>
+            <button type="button" class="profile btn">
+              <svg class="authentification__icon" width="42" height="42">
+                <use href="./image/sprite.svg#Profile"></use>
+              </svg>
+            </button>
           </li>
           <li class="authentification__item">
-            <button type="button" class="Notification btn"></button>
+            <button type="button" class="Notification btn">
+              <svg class="authentification__icon" width="42" height="42">
+                <use href="./image/sprite.svg#Notification"></use>
+              </svg>
+            </button>
           </li>
           <li class="authentification__item">
             <button type="button" class="authentification__buttom">
@@ -124,7 +134,11 @@
           <ul class="services__list">
             <li class="services__item">
               <a href="" class="services__link"
-                ><img src="./" alt="scissors" class="services__img" />
+                ><div class="icon__thumb">
+                  <svg class="services__icon" width="65" height="58">
+                    <use href="./image/sprite.svg#scissors"></use>
+                  </svg>
+                </div>
                 <h3 class="services__subtitle">Hair Cut</h3>
                 <p class="services__text">
                   long established fact that a reacted by the readable content
@@ -133,8 +147,12 @@
               >
             </li>
             <li class="services__item">
-              <a href="" class="services__link"
-                ><img src="./" alt="electric razor" class="services__img" />
+              <a href="" class="services__link">
+                <div class="icon__thumb">
+                  <svg class="services__icon" width="97" height="98">
+                    <use href="./image/sprite.svg#electricRazor"></use>
+                  </svg>
+                </div>
                 <h3 class="services__subtitle">Beard Cut</h3>
                 <p class="services__text">
                   long established fact that a reacted by the readable content
@@ -143,8 +161,12 @@
               >
             </li>
             <li class="services__item">
-              <a href="./" class="services__link"
-                ><img src="./" alt="cleanser" class="services__img" />
+              <a href="./" class="services__link">
+                <div class="icon__thumb">
+                  <svg class="services__icon" width="66" height="66">
+                    <use href="./image/sprite.svg#cleanser"></use>
+                  </svg>
+                </div>
                 <h3 class="services__subtitle">Facial Pack</h3>
                 <p class="services__text">
                   long established fact that a reacted by the readable content
@@ -221,8 +243,11 @@
     <!-- footer -->
     <footer class="footer">
       <div class="container footer-container">
-        <a href="./" class="footer__logo"
-          ><img src="./image/logo.svg" alt="scissors" /> arber</a
+        <a href="./" class="footer-logo__link"
+          ><svg class="footer-logo__icon" width="113" height="101">
+            <use href="./image/sprite.svg#scissors"></use>
+          </svg>
+          arber</a
         >
 
         <p class="footer__text">
@@ -233,30 +258,24 @@
         <ul class="social__list">
           <li class="social__item">
             <a href="" class="social__link" aria-label="facebook"
-              ><img
-                src="./image/facebook.svg"
-                alt="facebook"
-                class="social__image"
-              />facebook</a
-            >
+              ><svg class="social__icon" width="25" height="38">
+                <use href="./image/sprite.svg#facebook"></use>
+              </svg>
+            </a>
           </li>
           <li class="social__item">
-            <a href="" class="social__link" aria-label="twitter"
-              ><img
-                src="./image/twitter.svg"
-                alt="twitter"
-                class="social__image"
-              />twitter</a
-            >
+            <a href="" class="social__link" aria-label="twitter">
+              <svg class="social__icon" width="32" height="25">
+                <use href="./image/sprite.svg#twitter"></use>
+              </svg>
+            </a>
           </li>
           <li class="social__item">
-            <a href="" class="social__link" aria-label="google"
-              ><img
-                src="./image/google.svg"
-                alt="google"
-                class="social__image"
-              />google</a
-            >
+            <a href="" class="social__link" aria-label="google">
+              <svg class="social__icon" width="28" height="29">
+                <use href="./image/sprite.svg#google"></use>
+              </svg>
+            </a>
           </li>
         </ul>
         <span class="footer__border"></span>

@@ -5,11 +5,16 @@
   padding-bottom: 35px;
 }
 
-.footer__logo {
-  display: inline-block;
+.footer-logo__link {
+  display: flex;
   margin-bottom: 37px;
   @include fonts(600, 60, 1.33);
   @extend %logo;
+}
+
+.footer-logo__icon {
+  transform: rotate(40deg);
+  fill: currentColor;
 }
 
 .footer__text {
@@ -22,9 +27,29 @@
 
 .social__list {
   display: flex;
+  justify-content: space-between;
   margin-bottom: 47px;
 }
 
+.social__item {
+  &:not(:last-child) {
+    margin-right: 25px;
+  }
+}
+.social__link {
+  @extend %socialLink;
+
+  background-color: map-get($colors, 'button');
+  color: map-get($colors, 'white');
+
+  &:hover {
+    background-color: map-get($colors, 'serviceIcon');
+  }
+}
+
+.social__icon {
+  fill: currentColor;
+}
 .footer__border {
   width: 1362px;
   border: 1px solid map-get($colors, 'button');

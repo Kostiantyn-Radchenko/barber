@@ -10,7 +10,9 @@
 }
 
 .services__link {
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
   flex-basis: calc(100% / 3 - 49px);
   margin-left: 49px;
   text-align: center;
@@ -40,9 +42,23 @@
   }
 }
 
-.services__img {
+.icon__thumb {
+  display: flex;
+  justify-content: center;
+  width: 103px;
+  height: 126px;
+  border-radius: 13px;
+
   margin-bottom: 59px;
+
+  color: map-get($colors, 'serviceIcon');
+  background-color: map-get($colors, 'cardIconBkg');
+  box-shadow: map-get($colors, 'cardShadow');
 }
+.services__icon {
+  fill: currentColor;
+}
+
 .services__title {
   @extend %title;
   &--secondary {

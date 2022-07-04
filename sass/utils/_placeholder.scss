@@ -25,7 +25,7 @@
   &:focus {
     color: map-get($colors, 'button');
     background-color: map-get($colors, 'white');
-    border: 1px solid map-get($colors, 'button');
+    border-color: map-get($colors, 'button');
   }
 }
 // title
@@ -33,4 +33,13 @@
   color: map-get($colors, 'titlePrimary');
 
   @include fonts(700, 70, 1.5);
+}
+
+// social link
+%socialLink {
+  display: flex;
+  justify-content: center;
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
 }

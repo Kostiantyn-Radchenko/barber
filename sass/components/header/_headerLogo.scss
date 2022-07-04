@@ -5,4 +5,13 @@
   @extend %logo;
 
   @include fonts(600, 40, 1.32);
+
+  &:hover,
+  &:focus {
+    color: red;
+  }
+}
+.logo__icon {
+  transform: rotate(30deg);
+  fill: currentColor;
 }
