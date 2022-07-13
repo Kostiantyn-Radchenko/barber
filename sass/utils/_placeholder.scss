@@ -21,6 +21,8 @@
   border-color: transparent;
   border-radius: $borderRadius;
 
+  cursor: pointer;
+
   &:hover,
   &:focus {
     color: map-get($colors, 'button');

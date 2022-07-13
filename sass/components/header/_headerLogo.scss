@@ -1,17 +1,23 @@
 .nav__logo {
+  position: relative;
+
   display: flex;
   align-items: center;
-
+  margin-left: 75px;
   @extend %logo;
 
   @include fonts(600, 40, 1.32);
 
   &:hover,
   &:focus {
-    color: red;
+    color: map-get($colors, 'serviceIcon');
   }
 }
 .logo__icon {
+  position: absolute;
+  top: -40px;
+  left: -60px;
+
   transform: rotate(30deg);
   fill: currentColor;
 }
