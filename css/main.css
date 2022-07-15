@@ -94,7 +94,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -178,9 +178,9 @@ select {
 Correct the inability to style clickable types in iOS and Safari.
 */
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+[type=button],
+[type=reset],
+[type=submit] {
   -webkit-appearance: button;
 }
 
@@ -233,7 +233,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
 */
-[type='search'] {
+[type=search] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -269,11 +269,11 @@ summary {
   display: list-item;
 }
 
-.nav__logo, .footer-logo__link {
+.footer-logo__link, .nav__logo {
   color: #99baed;
 }
 
-.authentification__buttom, .hero__buttom, .our-history__button, .gallery__button {
+.gallery__button, .our-history__button, .hero__buttom, .authentification__buttom {
   color: #ffffff;
   background-color: #99baed;
   font-weight: 700;
@@ -285,15 +285,16 @@ summary {
   border-color: transparent;
   border-radius: 20px;
   cursor: pointer;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
 }
-
-.authentification__buttom:hover, .hero__buttom:hover, .our-history__button:hover, .gallery__button:hover, .authentification__buttom:focus, .hero__buttom:focus, .our-history__button:focus, .gallery__button:focus {
+.gallery__button:hover, .our-history__button:hover, .hero__buttom:hover, .authentification__buttom:hover, .gallery__button:focus, .our-history__button:focus, .hero__buttom:focus, .authentification__buttom:focus {
   color: #99baed;
   background-color: #ffffff;
   border-color: #99baed;
 }
 
-.hero__title, .our-history__title, .services__title, .gallery__title {
+.gallery__title, .services__title, .our-history__title, .hero__title {
   color: #163561;
   font-weight: 700;
   font-size: 70px;
@@ -377,8 +378,9 @@ body {
   font-weight: 600;
   font-size: 40px;
   line-height: 1.32;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
 }
-
 .nav__logo:hover, .nav__logo:focus {
   color: #008fdd;
 }
@@ -418,11 +420,12 @@ body {
   padding-left: 14px;
   padding-right: 14px;
   color: #163561;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
   font-weight: 500;
   font-size: 25px;
   line-height: 1.32;
 }
-
 .nav__link:hover, .nav__link:focus {
   color: #ffffff;
   background-color: #a3c1ef;
@@ -436,7 +439,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .authentification__item:not(:last-child) {
   margin-right: 48px;
 }
@@ -446,9 +448,10 @@ body {
   height: 42px;
   border: none;
   background-color: #ffffff;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
   cursor: pointer;
 }
-
 .btn:hover, .btn:focus {
   border-radius: 50%;
   background-color: rgba(0, 0, 255, 0.1);
@@ -479,7 +482,6 @@ body {
   line-height: 1.33;
   margin-bottom: 29px;
 }
-
 .hero__title--secondary {
   color: #fbb400;
 }
@@ -520,7 +522,6 @@ body {
 .our-history__title {
   margin-bottom: 80px;
 }
-
 .our-history__title--secondary {
   color: #fbb400;
 }
@@ -532,7 +533,6 @@ body {
   opacity: 0.65;
   margin-bottom: 48px;
 }
-
 .our-history__text:last-child {
   margin-bottom: 108px;
 }
@@ -564,8 +564,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-preferred-size: calc(100% / 3 - 49px);
-      flex-basis: calc(100% / 3 - 49px);
+  -ms-flex-preferred-size: calc(33.3333333333% - 49px);
+      flex-basis: calc(33.3333333333% - 49px);
   margin-left: 49px;
   text-align: center;
   padding-top: 50px;
@@ -578,14 +578,12 @@ body {
   -webkit-box-shadow: 0px 5px 0px #99baed;
           box-shadow: 0px 5px 0px #99baed;
   border-radius: 29px;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
 }
-
 .services__link:hover, .services__link:focus {
   background-color: #99baed;
-  -webkit-transition: 1500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: 1500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-
 .services__link:hover .services__subtitle,
 .services__link:hover .services__text, .services__link:focus .services__subtitle,
 .services__link:focus .services__text {
@@ -617,7 +615,6 @@ body {
   margin-bottom: 83px;
   text-align: center;
 }
-
 .services__title--secondary {
   color: #fbb400;
 }
@@ -628,6 +625,8 @@ body {
   font-weight: 700;
   font-size: 45px;
   line-height: 1.15;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
 }
 
 .services__text {
@@ -636,6 +635,8 @@ body {
   font-weight: 400;
   font-size: 25px;
   line-height: 1.5;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
 }
 
 .gallery {
@@ -662,10 +663,11 @@ body {
   margin-left: 37px;
 }
 
-.linear {
+.gallery__item::before {
   position: absolute;
   top: 0;
   left: 0;
+  content: "";
   width: 100%;
   height: 100%;
   background-color: rgba(82, 150, 255, 0.35);
@@ -675,7 +677,6 @@ body {
   margin-bottom: 110px;
   text-align: center;
 }
-
 .gallery__title--secondary {
   color: #fbb400;
 }
@@ -709,8 +710,9 @@ body {
   font-weight: 600;
   font-size: 60px;
   line-height: 1.33;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
 }
-
 .footer-logo__link:hover, .footer-logo__link:focus {
   color: #008fdd;
 }
@@ -751,10 +753,13 @@ body {
 .social__link {
   background-color: #99baed;
   color: #ffffff;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
 }
-
 .social__link:hover, .social__link:focus {
   background-color: #008fdd;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .social__icon {
@@ -764,5 +769,4 @@ body {
 .footer__border {
   width: 1362px;
   border: 1px solid #99baed;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

@@ -21,6 +21,8 @@
 
   color: map-get($colors, 'titlePrimary');
 
+  transition: 500ms ease;
+
   &:hover,
   &:focus {
     color: map-get($colors, 'white');

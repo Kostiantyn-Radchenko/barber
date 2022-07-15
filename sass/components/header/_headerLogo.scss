@@ -8,6 +8,8 @@
 
   @include fonts(600, 40, 1.32);
 
+  transition: 500ms ease;
+
   &:hover,
   &:focus {
     color: map-get($colors, 'serviceIcon');

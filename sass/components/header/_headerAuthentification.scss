@@ -19,6 +19,8 @@
 
   background-color: map-get($colors, 'white');
 
+  transition: 500ms ease;
+
   cursor: pointer;
 
   &:hover,
