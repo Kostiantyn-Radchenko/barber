@@ -47,3 +47,10 @@
   height: 67px;
   border-radius: 50%;
 }
+
+// is hidden
+%is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}

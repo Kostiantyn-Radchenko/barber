@@ -38,7 +38,7 @@
         <!-- registration section -->
         <ul class="authentification">
           <li class="authentification__item">
-            <button type="button" class="profile btn">
+            <button type="button" class="profile btn" data-modal-open>
               <svg class="authentification__icon" width="42" height="42">
                 <use href="./image/sprite.svg#Profile"></use>
               </svg>
@@ -281,5 +281,20 @@
         <span class="footer__border"></span>
       </div>
     </footer>
+
+    <!-- modal -->
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <p class="modal__text">in developing</p>
+        <button type="button" class="btn__modal" data-modal-close>
+          <svg class="modal-menu__icon" width="113" height="101">
+            <use href="./image/modal_element.svg#cross"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
