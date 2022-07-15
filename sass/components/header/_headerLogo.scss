@@ -13,9 +13,15 @@
   &:hover,
   &:focus {
     color: map-get($colors, 'serviceIcon');
+
+    .logo__icon {
+      transform: rotate(390deg);
+    }
   }
 }
 .logo__icon {
+  transition: 500ms ease;
+
   position: absolute;
   top: -40px;
   left: -60px;

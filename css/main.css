@@ -384,8 +384,14 @@ body {
 .nav__logo:hover, .nav__logo:focus {
   color: #008fdd;
 }
+.nav__logo:hover .logo__icon, .nav__logo:focus .logo__icon {
+  -webkit-transform: rotate(390deg);
+          transform: rotate(390deg);
+}
 
 .logo__icon {
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
   position: absolute;
   top: -40px;
   left: -60px;
@@ -716,8 +722,14 @@ body {
 .footer-logo__link:hover, .footer-logo__link:focus {
   color: #008fdd;
 }
+.footer-logo__link:hover .footer-logo__icon, .footer-logo__link:focus .footer-logo__icon {
+  -webkit-transform: rotate(400deg);
+          transform: rotate(400deg);
+}
 
 .footer-logo__icon {
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
   position: absolute;
   top: -50px;
   left: -75px;
