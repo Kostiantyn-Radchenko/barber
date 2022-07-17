@@ -282,7 +282,7 @@ summary {
   min-width: 188px;
   padding: 23px 33px;
   text-align: center;
-  border-color: transparent;
+  border: 2px solid transparent;
   border-radius: 20px;
   cursor: pointer;
   -webkit-transition: 500ms ease;
@@ -313,7 +313,7 @@ summary {
   border-radius: 50%;
 }
 
-.backdrop.is-hidden {
+.is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
@@ -477,13 +477,17 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 255, 0.1);
 }
+.backdrop.is-hidden .modal {
+  -webkit-transform: translateY(-200px);
+          transform: translateY(-200px);
+}
 
 .modal {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%) translateY(0);
+          transform: translate(-50%, -50%) translateY(0);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -504,7 +508,17 @@ body {
   right: 10px;
   width: 30px;
   height: 30px;
+  border: 2px solid #008fdd;
   border-radius: 100%;
+  color: #008fdd;
+}
+.btn__modal:hover, .btn__modal:focus {
+  color: #153461;
+  border-color: #153461;
+}
+
+.modal-menu__icon {
+  fill: currentColor;
 }
 
 .modal__text {
