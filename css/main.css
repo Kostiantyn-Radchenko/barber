@@ -477,17 +477,25 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 255, 0.1);
 }
+.backdrop.is-hidden {
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
+}
 .backdrop.is-hidden .modal {
-  -webkit-transform: translateY(-200px);
-          transform: translateY(-200px);
+  -webkit-transform: translate(-50%, -50%) scale(0.1);
+          transform: translate(-50%, -50%) scale(0.1);
 }
 
 .modal {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%) translateY(0);
-          transform: translate(-50%, -50%) translateY(0);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  -webkit-transition: -webkit-transform 500ms ease;
+  transition: -webkit-transform 500ms ease;
+  transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -508,13 +516,15 @@ body {
   right: 10px;
   width: 30px;
   height: 30px;
-  border: 2px solid #008fdd;
+  border: 2px solid #153461;
   border-radius: 100%;
-  color: #008fdd;
+  color: #153461;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
 }
 .btn__modal:hover, .btn__modal:focus {
-  color: #153461;
-  border-color: #153461;
+  color: #008fdd;
+  border-color: #008fdd;
 }
 
 .modal-menu__icon {
